@@ -1,6 +1,7 @@
 package kr.skylightqp.carrotmafia
 
-import kr.skylightqp.carrotmafia.commands.TeleportPositionCommand
+import kr.skylightqp.carrotmafia.commands.teleports.TeleportPlayerCommand
+import kr.skylightqp.carrotmafia.commands.teleports.TeleportPositionCommand
 import org.bukkit.plugin.java.JavaPlugin
 
 class CarrotMafia : JavaPlugin() {
@@ -12,6 +13,7 @@ class CarrotMafia : JavaPlugin() {
         logger.info("CarrotMafia 시작")
 
         getCommand("ta").executor = TeleportPositionCommand()
+        getCommand("tp").executor = TeleportPlayerCommand()
     }
 
     override fun onDisable() {

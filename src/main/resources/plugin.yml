@@ -4,4 +4,6 @@ version: 1.0.0
 
 commands:
   ta:
-    description: 텔레포트 명령어
+    description: 좌표 텔레포트 명령어
+  tp:
+    description: 플레이어 텔레포트 명령어
