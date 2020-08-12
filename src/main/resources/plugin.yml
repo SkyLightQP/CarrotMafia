@@ -1,3 +1,7 @@
 name: CarrotMafia
 main: kr.skylightqp.carrotmafia.CarrotMafia
-version: 1.0
+version: 1.0.0
+
+commands:
+  ta:
+    description: 텔레포트 명령어
